@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+  text-align: right;
+  margin: -100px;
+  padding: 150px; 
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+  text-align: right;
+  background-position: 100% ;
+padding-right: 5px;
+font-family:'Inter', sans-serif;
+font-size: 40px;
+}
+
+h1 {
+  font-family:'Inter', sans-serif;
+font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+width: 1200px;
+height: 150px;
+padding: 10px;
+border: 5px;
+margin: 0;
+}
+h2 {
+  font-family:'Inter', sans-serif;
+font-size: 80px;
+font-style: italic;
+  font-weight: bold;
+  text-align: left;
+width: 500px;
+padding: 10px;
+border: 5px
+}
+h3 {
+  font-family:'Inter', sans-serif;
+font-size: 50px;
+font-style: italic;
+  font-weight: bold;
+  text-align: left;
+width: 500px;
+padding: 10px;
+border: 5px
+}
+h4 {
+  font-family:'Inter', sans-serif;
+font-size: 50px;
+font-style: italic;
+  font-weight: bold;
+  text-align: left;
+width: 300px;
+padding: 10px;
+border: 5px
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+  margin: auto;
+}
+.content {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 50px;
+    background-color: #F2F2EB;
+  text-align: left;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  text-align: right;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+  text-align: right;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 2000px;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
